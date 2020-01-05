@@ -1,0 +1,433 @@
+.topnav {
+    width: 100%;
+    height: calc(44rem / 37.5);
+    background-color: #132033;
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+}
+
+.topnav-left {
+    float: left;
+    width: calc(315rem / 37.5);
+    
+}
+
+.topnav-left-logo {
+    float: left;
+    width: calc(87rem / 37.5);
+    margin-top: calc(10rem / 37.5);
+    margin-left: calc(20rem / 37.5);
+}
+
+.topnav-left-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.topnav-center {
+    float: right;
+    width: calc(125rem / 37.5);
+    height: calc(44rem / 37.5);
+    line-height: calc(44rem / 37.5);
+    text-align: center;
+}
+
+.topnav-center a {
+    display: block;
+    padding: 0 calc(10rem / 37.5);
+    color: #fff;
+    font-size: calc(15rem / 37.5);
+    background-color: #4a89e8;
+}
+
+.topnav-right {
+    float: right;
+    width: calc(60rem / 37.5);
+    height: calc(44rem / 37.5);
+    
+}
+
+.topnav-right-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.topnav-right-iconfont {
+    display: block;
+    width: calc(19rem / 37.5);
+    height: calc(19rem / 37.5);
+    background-image: url(../image/icons.png);
+    background-position: -1px -15px;
+    background-repeat: no-repeat;
+    background-size: 42px 108px;
+    margin: 12.5px auto;
+}
+
+.cartoon {
+    position: relative;
+}
+
+.cartoon-img  {
+    width: 100%;
+    height: calc(325rem / 37.5);
+    
+}
+
+.cartoon-img a {
+    display: block;
+    width: 100%;
+    
+}
+
+.cartoon-img a img {
+    width: 100%;
+}
+
+.middleground-bcg {
+    height: calc(281rem / 37.5);
+    width: 100%;
+    background-image: url(../image/lunbotu4.jpeg);
+    background-size: 100% 100%;
+    background-color: #f2f4fa;
+}
+
+.middleground-content {
+    padding: calc(80rem / 37.5) calc(20rem / 37.5) calc(40rem / 37.5);
+    color: #fff;
+}
+
+.middleground-content-title h3{
+    font-size: calc(24rem / 37.5);
+    color: #fff;
+    line-height: calc(30rem / 37.5);
+    font-weight: lighter;
+}
+
+.middleground-content-introduce {
+    margin-top: calc(17rem / 37.5);
+    margin-bottom: calc(12rem / 37.5);
+    font-size: calc(14rem / 37.5);
+    line-height: calc(21rem / 37.5);
+    color: #fff;
+    height: calc(60rem / 37.5);
+    line-height: calc(22rem / 37.5);
+}
+
+.detail {
+    overflow: hidden;
+}
+
+.detail-but {
+    float: left;
+    width: calc(110rem / 37.5);
+    height: calc(35rem / 37.5);
+    text-align: center;
+    line-height: calc(35rem / 37.5);
+    background-color: #387ee8;
+    font-size: calc(14rem / 37.5);
+}
+
+.feature {
+    padding: calc(30rem / 37.5) 0 calc(35rem / 37.5);
+}
+
+.feature-content {
+    padding: 0 calc(20rem / 37.5);
+}
+
+.feature-content-title {
+    padding-bottom: calc(20rem / 37.5);
+}
+
+.feature-content-title h3 {
+    font-size: calc(18rem / 37.5);
+    line-height: calc(26rem / 37.5);
+}
+
+.feature-items {
+    text-align: center;
+    margin-top: calc(25rem / 37.5);
+}
+
+.feature-items:first-child {
+    margin-top: 0;
+}
+
+.feature-items img {
+    width: calc(52rem / 37.5);
+    height: calc(52rem / 37.5);
+}
+
+.feature-items-a h3 {
+    font-size: calc(16rem / 37.5);
+    line-height: calc(20rem / 37.5);
+}
+
+.feature-items-a p {
+    text-align: left;
+    font-size: calc(14rem / 37.5);
+    color: #666;
+    line-height: 1.3;
+    padding-top: calc(5rem / 37.5);
+}
+
+.carcass {
+    padding: calc(30rem / 37.5) 0 calc(35rem / 37.5);
+    background-color: #f0f3f7;
+}
+
+.carcass-content {
+    padding:  0 calc(20rem / 37.5);
+}
+
+.carcass-content-title {
+    padding-bottom: calc(20rem / 37.5);
+}
+
+.carcass-content-title h3 {
+    font-size: calc(18rem / 37.5);
+    line-height: calc(26rem / 37.5);
+}
+
+.carcass-content-introduce {
+    width: 100%;
+
+}
+
+.carcass-content-introduce img {
+    width: 100%;
+    height: 100%;
+}
+
+.related {
+    padding: calc(30rem / 37.5) 0 calc(35rem / 37.5);
+}
+
+.related-content {
+    padding: 0 calc(20rem / 37.5);
+}
+
+.related-content-title {
+    padding-bottom: calc(20rem / 37.5);
+}
+
+.related-content-title h3 {
+    font-size: calc(18rem / 37.5);
+    line-height: calc(26rem / 37.5);
+}
+
+.related-content-introduce {
+    border: calc(1rem / 37.5) solid #dbe0e5;
+}
+
+.related-items {
+    background-color: #f0f3f7;
+    line-height: calc(45rem / 37.5);
+    padding-left: calc(16rem / 37.5);
+    border-bottom: calc(1rem / 37.5) solid #dbe0e5;
+}
+
+.related-items-icon {
+    float: right;
+    width: calc(19rem / 37.5);
+    height: calc(19rem / 37.5);
+    background-image: url(../image/m_footer_fold_icon@2x.png);
+    background-position: -31px 3px;
+    background-size: 16px 30px;
+    margin-top: calc(13rem / 37.5);
+    margin-right: calc(15rem / 37.5);
+}
+
+.related-items:last-child {
+    border-bottom: none;
+}
+
+.client {
+    padding-bottom: calc(48rem / 37.5);
+        background-color: #f0f3f7;
+}
+
+.client-content {
+    padding: 0 calc(20rem / 37.5);
+
+}
+
+.client-content-title {
+    padding: calc(50rem / 37.5) 0 calc(35rem / 37.5);
+}
+
+.client-content-title h3 {
+    font-size: calc(18rem / 37.5);
+    font-weight: 600;
+}
+
+.client-items {
+    overflow: hidden;
+    margin-top: calc(21rem / 37.5);
+
+}
+
+.client-items:first-child {
+    margin-top: 0;
+}
+
+.client-items img {
+    width: calc(45rem / 37.5);
+    height: calc(45rem / 37.5);
+}
+
+.client-items-a {
+    float: right;
+    width: calc(270rem / 37.5);
+    font-size: calc(14rem / 37.5);
+}
+
+.client-items-a h3 {
+    font-weight: 600;
+    margin-bottom: calc(11rem / 37.5);
+}
+
+.client-items-a p {
+    color: #666;
+    line-height: 1.3;
+}
+
+
+
+.scheme {
+    padding-top: calc(30rem / 37.5);
+    height: calc(130rem / 37.5);
+    box-sizing: border-box;
+    background-image: url(../image/fangan.png);
+    background-size: 100% 100%;
+}
+
+.scheme-content {
+    padding: 0 calc(20rem / 37.5);
+    text-align: center;
+}
+
+.scheme-content-title h3 {
+    font-size: calc(18rem / 37.5);
+    line-height: calc(20rem / 37.5);
+    margin-bottom: calc(15rem / 37.5);
+    color: #fff;
+}
+
+.scheme-content-but span {
+    display: inline-block;
+    line-height: calc(35rem / 37.5);
+    padding: 0 calc(32rem / 37.5);
+    background-color: rgba(92,110,130,.1);
+    border: calc(1rem / 37.5) solid #fff;
+    border-radius: calc(2rem / 37.5);
+    color: #fff;
+}
+
+.bottomnav {
+    padding-top: calc(40rem / 37.5);
+    background-color: #242a37;
+    color: #fff;
+}
+
+.bottomnav-content {
+    padding: 0 calc(20rem / 37.5);
+}
+
+.bottomnav-items {
+    border-bottom: calc(1rem / 37.5) solid #31394b;
+}
+
+.bottomnav-items:first-child {
+    border-top: calc(1rem / 37.5) solid #455068;
+}
+
+.bottomnav-items h3 {
+    font-size: calc(14rem / 37.5);
+    line-height: calc(45rem / 37.5);
+    position: relative;
+}
+
+.bottom-items-iconfont {
+    /* float: right; */
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: calc(12rem / 37.5);
+    width: calc(19rem / 37.5);
+    height: calc(19rem / 37.5);
+    background-image: url(../image/m_footer_fold_icon@2x.png);
+    background-position: -2px -1px;
+    background-size: calc(22rem / 37.5);
+    line-height: calc(45rem / 37.5);
+}
+
+.bottomnav-items-weixin {
+    font-size: calc(14rem / 37.5);
+    text-align: center;
+    height: calc(60rem / 37.5);
+    line-height: calc(60rem / 37.5);
+    border-bottom: calc(1rem / 37.5) solid #31394b;
+}
+
+.bottomnav-items-weixin a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottomnav-items-weixin a:first-child i{
+    display: inline-block;
+    width: calc(20rem / 37.5);
+    height: calc(20rem / 37.5);
+    background-image: url(../image/weixin.png);
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.bottomnav-items-weixin a:last-child i{
+    display: inline-block;
+    width: calc(20rem / 37.5);
+    height: calc(20rem / 37.5);
+    background-image: url(../image/weibo.png);
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.bottomnav-items-weixin a:last-child {
+    margin-left: calc(24rem / 37.5);
+}
+
+.bottomnav-items-weixin a span {
+    color: #d9d9d9;
+}
+
+.copyright {
+    background-color: #242a37;
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.copyright-content {
+    padding: 0 calc(20rem / 37.5) calc(20rem / 37.5);
+}
+
+.copyright-content p {
+    padding-top: calc(8rem / 37.5);
+    font-size: calc(12rem / 37.5);
+}
+
+.copyright-content p:first-child {
+    padding-top: calc(15rem / 37.5);
+}
+
+.copyright-content-icon {
+    display: inline-block;
+    width: calc(20rem / 37.5);
+    height: calc(20rem / 37.5);
+    background-image: url(../image/police.png);
+    vertical-align: middle;
+    margin-right: calc(3rem / 37.5);
+}

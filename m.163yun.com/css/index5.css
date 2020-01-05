@@ -1,0 +1,112 @@
+html,body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback {
+    width: 100%;
+}
+
+.items-img-1 {
+    width: 100%;
+    height: calc(272rem / 37.5);
+    background-image: url(../image/index5-1.jpeg);
+    background-size: 100%;
+}
+
+.items-img-2 {
+    width: 100%;
+    height: calc(116rem / 37.5);
+    background-image: url(../image/index5-2.jpeg);
+    background-size: 100%;
+}
+
+.items-img-3 {
+    width: 100%;
+    height: calc(241rem / 37.5);
+    background-image: url(../image/index5-3.jpeg);
+    background-size: 100%;
+}
+
+.items-img-4 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-4.jpeg);
+    background-size: 100%;
+}
+
+.items-img-5 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-5.jpeg);
+    background-size: 100%;
+}
+
+.items-img-6 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-6.jpeg);
+    background-size: 100%;
+}
+
+.items-img-7 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-7.jpeg);
+    background-size: 100%;
+}
+
+.items-img-8 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-8.jpeg);
+    background-size: 100%;
+}
+
+.items-img-9 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-9.jpeg);
+    background-size: 100%;
+}
+
+.items-img-10 {
+    width: 100%;
+    height: calc(198rem / 37.5);
+    background-image: url(../image/index5-10.jpeg);
+    background-size: 100%;
+}
+
+.items-img-11 {
+    width: 100%;
+    height: calc(230rem / 37.5);
+    background-image: url(../image/index5-11.jpeg);
+    background-size: 100%;
+}
+
+.items-img-12 {
+    width: 100%;
+    height: calc(533rem / 37.5);
+    background-image: url(../image/index5-12.jpeg);
+    background-size: 100%;
+}
+
+.banquan {
+    padding: 0 calc(20rem / 37.5) calc(20rem / 37.5);
+    background-color: #390687;
+    color: #d9d9d9;
+    font-size: calc(12rem / 37.5);
+    text-align: center;
+}
+
+.banquan p {
+    padding-top: calc(15rem / 37.5);
+}
+
+.banquan-icon img{
+    width: calc(20rem / 37.5);
+    height: calc(20rem / 37.5);
+    margin-right: calc(5rem / 37.5);
+    vertical-align: middle;
+}
