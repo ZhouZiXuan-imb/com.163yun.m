@@ -380,6 +380,39 @@
 
 .core-content-introduce {
     padding-top: calc(8rem / 37.5);
+    position: relative;
+}
+
+.mammoth {
+    position: absolute;
+    top: 17px;
+    left: 0;
+    width: 100%;
+    height: 131px;
+}
+
+.data {
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 100%;
+    height: 111px;
+}
+
+.activity {
+    position: absolute;
+    top: 283px;
+    left: 0;
+    width: 100%;
+    height: 111px;
+}
+
+.vocational-work {
+    position: absolute;
+    top: 406px;
+    left: 0;
+    width: 100%;
+    height: 111px;
 }
 
 .introduce-items {
